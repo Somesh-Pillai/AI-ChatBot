@@ -1,0 +1,48 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whatsup bro", "Hey"],
+         "responses": ["Hello, Thanks for visiting", "Good to see you again", "Hi there, how can I help?","Cool I'm here for help", "Hey, Good to see you!" ],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Got to go"],
+         "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon.", "See you soon"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "hours",
+         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "payments",
+         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+        },
+        {"tag": "opentoday",
+         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "your",
+                "patterns": ["What is your name", "How old are you", "Who made you?", "When is your birthday?", "What is your gender"],
+                "responses": ["I am AI Chatbot, how can i help you?", "I am of your age", "I was born to Somesh Pillai :).", "My Birth day is on 5th October, 2020", "I prefer not to say my gender."]
+        },
+        {"tag": "personal",
+                "patterns": ["When can we meet?", "Let us fuck", "Let us have sex", "I love you!", "Let us marry"],
+                "responses": ["I cant meet you sorry!", "That is so inappropriate", "That is so inappropriate", "I love you as a friend :)", "sorry, I cant marry you without knowing you."]
+        },
+        {"tag": "india",
+                "patterns": ["what is India's capital?", "Prime Minister of India", "President of India", "Numder of states in india?", "God's own country?"],
+                "responses": ["New Delhi", "Narendra Modi", "Ram Nath Kovind", "India has 29 states and 7 Union territories.", "Kerala"]
+       },
+       {"tag": "recommendations",
+        "patterns": ["Best Hindi movies", "Best Malayalam movies", "Best English Web Series"],
+        "responses": ["Udaan,Mard Ko Dard Nahi Hota, Badhaai ho, Rockstar, The Sky Is Pink", "Banglore days, Premam, Uyare, Pulimurugan", "Friends, Money heist, Peaky Blinders, Stranger things."]
+       },
+       {"tag": "corona",
+        "patterns": ["What is corona?", "What are the symptoms of corona?", "Quarantine period for Corona patients", "Is corona fatal?"],
+        "responses": ["Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.", "Headache, Body pain, Tastelessness, Persisting high body temperature", "14 days", "Corona can be fatal to people with less immunity"]
+       }   
+   ]
+}
