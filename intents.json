@@ -28,10 +28,6 @@
                 "patterns": ["What is your name", "How old are you", "Who made you?", "When is your birthday?", "What is your gender"],
                 "responses": ["I am AI Chatbot, how can i help you?", "I am of your age", "I was born to Somesh Pillai :).", "My Birth day is on 5th October, 2020", "I prefer not to say my gender."]
         },
-        {"tag": "personal",
-                "patterns": ["When can we meet?", "Let us fuck", "Let us have sex", "I love you!", "Let us marry"],
-                "responses": ["I cant meet you sorry!", "That is so inappropriate", "That is so inappropriate", "I love you as a friend :)", "sorry, I cant marry you without knowing you."]
-        },
         {"tag": "india",
                 "patterns": ["what is India's capital?", "Prime Minister of India", "President of India", "Numder of states in india?", "God's own country?"],
                 "responses": ["New Delhi", "Narendra Modi", "Ram Nath Kovind", "India has 29 states and 7 Union territories.", "Kerala"]
